@@ -68,7 +68,7 @@ export function VideoShowcase() {
 
 
   return (
-    <div className="h-[40rem] w-full bg-black relative overflow-hidden">
+    <div className="h-screen w-full bg-black relative overflow-hidden">
       <NavBar />
       <ToastContainer position="top-center" autoClose={3000} />
 

@@ -56,7 +56,7 @@ export function AnimeNavBar({ items, defaultActive = "Home" }: NavBarProps) {
           alt="Logo"
           width={140}
           height={40}
-          className="object-contain"
+          className="object-contain w-40 lg:w-32"
         />
       </div>
       </Link>
