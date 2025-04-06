@@ -1,11 +1,10 @@
+import { PreviewVideo } from '@/components/Preview-Video'
 import React from 'react'
-import { VideoShowcase } from "@/components/ShowcaseVideo";
-
 
 const page = () => {
   return (
     <div>
-      <VideoShowcase />
+        <PreviewVideo />
     </div>
   )
 }
