@@ -89,7 +89,7 @@ export function VideoShowcase() {
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center mt-10 lg:mt-12 md:mt-12 h-full text-center">
-        <h1 className="text-4xl md:text-6xl font-bold text-white mb-8">
+        <h1 className="text-4xl md:text-6xl font-bold text-white mb-8 px-1">
           <span className="text-[#ffae00]">CAPTURE YOUR TALENT,</span> CREATE YOUR CAREER!
         </h1>
         <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto px-4">

@@ -47,7 +47,7 @@ export function AnimeNavBar({ items, defaultActive = "Home" }: NavBarProps) {
 
   return (
     <div className="fixed top-0 left-0 right-0 z-[9999] px-4 py-7">
-    <div className="flex justify-between items-center gap-3 md:gap-10 rounded-xl shadow-lg p-4">
+    <div className="flex justify-between items-center gap-6 md:gap-10 rounded-xl shadow-lg p-4 px-2 lg:px-4 md:px-4">
       {/* Logo */}
       <Link href="/">
       <div className="flex justify-start">
@@ -56,13 +56,13 @@ export function AnimeNavBar({ items, defaultActive = "Home" }: NavBarProps) {
           alt="Logo"
           width={140}
           height={40}
-          className="object-contain w-40 lg:w-32"
+          className="object-contain w-64 lg:w-48"
         />
       </div>
       </Link>
         {isMobile? '' : ''}
         <motion.div 
-          className="flex items-center gap-3 bg-black/50 border border-white/10 backdrop-blur-lg py-2 px-2 rounded-full shadow-lg relative"
+          className="flex items-center gap-1 lg:gap-3 md:gap-3 bg-black/50 border border-white/10 backdrop-blur-lg py-2 px-2 rounded-full shadow-lg relative"
           initial={{ y: -20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{
