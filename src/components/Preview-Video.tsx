@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useState } from "react";
-import VideoShowcase from "@/components/ui/video-player";
 import { NavBar } from "./navbar";
 
 const PreviewVideo = () => {
