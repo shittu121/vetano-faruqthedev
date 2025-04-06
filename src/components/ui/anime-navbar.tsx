@@ -52,7 +52,7 @@ export function AnimeNavBar({ items, defaultActive = "Home" }: NavBarProps) {
       <Link href="/">
       <div className="flex justify-start">
         <Image
-          src="/logo.png"
+          src="/logo.PNG"
           alt="Logo"
           width={140}
           height={40}
